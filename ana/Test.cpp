@@ -78,14 +78,6 @@ bool HEPHero::TestRegion() {
 void HEPHero::TestSelection() {
     
     plot_events({1, 5});
-
-    /*
-    vertices:
-    • weights – vector of floating point numbers which correspond to the weights assigned to this vertex.
-    particles:
-    • flows – vector of integer numbers which correspond to the QCD color flow information. No encoding scheme of the colour flows is imposed by the library, but it is expected to comply with the rules in Ref. [2].
-    • theta – an attribute holding the floating point value of the θ angle for polarisation.
-    */
     
     // https://dayabay.bnl.gov/dox/HepMC/html/classHepMC_1_1GenParticle.html
     
